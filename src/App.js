@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import Stars from './components/Stars/Stars'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Stars count={'as8d70a8s7d'}/>
+      <Stars count={3}/>
+      <Stars count={0}/>
     </div>
   );
 }
